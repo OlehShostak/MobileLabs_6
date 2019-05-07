@@ -21,6 +21,7 @@ namespace Xamarin_
 
             txtNumber = FindViewById<TextView>(Resource.Id.txtNumber);
 
+
             FindViewById<Button>(Resource.Id.btnInc).Click += (o, e) =>
             txtNumber.Text = (++number).ToString();
 
